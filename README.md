@@ -272,50 +272,16 @@ LLM API Integration
 
 The content-generation layer can be connected to an LLM API in a production implementation.
 
-Web Application
-
-The current notebook-based interface can be converted into a web application with a frontend and backend API.
 
 Additional Enhancements
 Multiple presentation themes
 Custom layouts
 Image insertion
-PDF export
 Multi-language support
 Cloud storage
 Presentation preview
 Automated content validation
 Production-Level Architecture
-
-A production version could separate the user interface, application logic, AI layer, validation, and PowerPoint generation:
-
-React / Web Interface
-        |
-        v
-     REST API
-        |
-        v
-Application / Prompt Layer
-        |
-        v
-      LLM API
-        |
-        v
-Response Validation
-        |
-        v
-Content Parser
-        |
-        v
-python-pptx
-        |
-        v
-PowerPoint File
-        |
-        v
-Storage / Download
-
-This architecture would make the system easier to scale, maintain, test, and extend.
 
 Project Outcome
 
